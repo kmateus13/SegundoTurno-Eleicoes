@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../decoration-green-color-flag-blue-yellow-615808-pxhere.com.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 30pt;
+    background-color: white;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    height: 100vh;
+    justify-content: center;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.total-urnas{
+    background-color: rgba(255, 255, 255, 0.897);
+    width: 82%;
+    height: 8%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#urnas{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 25pt;
+}
+
+.corpo {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.left {
+    width: 45%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.897);
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px #444444;
+}
+
+.rigth {
+    width: 45%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.897);
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px #444444;
+}
+
+.photo {
+    padding: 40px;
+}
+
+.result {
+    width: 80%;
+    height: 400px;
+}
+
+img {
+    width: 240px;
+    height: 250px;
+    border-radius: 500px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 45pt;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 30pt;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer {
+    height: 10vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:1068px) {
+
+    .title {
+        padding-top: 20px;
+    }
+
+    .corpo {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .total-urnas{
+        width: 380px;
+        height: 8%;
+        
+    }
+    
+    #urnas{
+        font-size: 16pt;
+    }
+
+    .left {
+        width: 380px;
+        height:30vh;
+    }
+
+    .rigth {
+        width: 380px;
+        height:30vh;
+    }
+
+    img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .photo{
+        margin-top: 5px;
+        padding: 2px;
+    }
+
+
+    h1{
+        font-size: 16pt;
+    }
+
+    h2{
+        margin-top: 20px;
+        font-size: 15pt;
+    }
+
+}
